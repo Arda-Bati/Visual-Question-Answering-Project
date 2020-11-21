@@ -29,29 +29,35 @@ Please refer to the experiment2 folder.
 
 todo...
 
-<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa1.png" width="600"/>
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa1.png" width="800"/>
 
 ### VQA Concept
 
-<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa2.png" width="600"/>
+todo...
+
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa2.png" width="800"/>
+
+### Related Methods
 
 todo...
 
-### Methods
-
-todo...
-
-### Experiment1
-
-todo...
-
-### Experiment2
-
-todo...
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/bottom_up.png" width="800"/>
+   
+### Main Method
+   
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/method.png" width="800"/>
 
 ## Results
 
 todo...
+
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/results1.png" width="800"/>
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/results2.png" width="800"/>
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/results3.png" width="800"/>
+
+### Success and Failure Examples
+
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/success_fail.png" width="800"/>
 
 ## References
 
