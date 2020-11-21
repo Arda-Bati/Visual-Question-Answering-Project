@@ -29,7 +29,11 @@ Please refer to the experiment2 folder.
 
 todo...
 
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa1.png" width="600"/>
+
 ### VQA Concept
+
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/vqa2.png" width="600"/>
 
 todo...
 
