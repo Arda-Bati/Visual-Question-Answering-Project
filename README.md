@@ -57,7 +57,7 @@ todo...
 
 ### Success and Failure Examples
 
-<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/success_fail.png" width="800"/>
+<img src="https://github.com/Arda-Bati/Visual-Question-Answering-Project/blob/master/images/succ_fail.png" width="800"/>
 
 ## References
 
