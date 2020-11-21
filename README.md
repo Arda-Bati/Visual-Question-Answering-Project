@@ -1,6 +1,6 @@
 # SAMS_VQA
 
-## Description 
+## Introduction
 
 This is project SAMS_VQA developed by the team composed of Arda Bati, Marjan Emadi, So Sasaki, and Sina Shahsavari.
 
@@ -24,6 +24,30 @@ Please refer to the experiment2 folder.
  - misc: Miscellaneous scripts
  - misc/data_format_check.ipynb: Script for preliminary data visualization 
  - misc/some_useful_codes: Scripts which were not used after all
+
+## Description
+
+todo...
+
+### VQA Concept
+
+todo...
+
+### Methods
+
+todo...
+
+### Experiment1
+
+todo...
+
+### Experiment2
+
+todo...
+
+## Results
+
+todo...
 
 ## References
 
