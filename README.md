@@ -13,90 +13,9 @@ The repository mainly consists of two implementations of Visual Question Answeri
 
 ### Experiment1
 
-The experiment1 requires 64G memory. To get sufficient resource on UCSD's ing6 server, create a pod as follows:
-```
-launch-pytorch-gpu.sh -m 64
-```
-
-#### Requirements:
-
-```
-python 2.7 
-pillow
-cuda 8.0
-pytorch 0.3.0
-```
-
-#### Environment creation:
-
-```
-conda create -n envname python=2.7 mkl=2018 pytorch=0.3.0 -c pytorch -c intel
-source activate envname
-pip install --user pillow h5py
-```
-
-#### Training the Model
-
-To train the model, run the following commands:
-
-```
-cd experiment1
-sh tools/download.sh
-sh tools/process.sh
-python main.py
-```
-
-#### Demonstration
-
-For the demonstration, you can the experiment results stored in our_answers.dms. This file is uploaded in experiment1/demo, but you can also generate it as follows:
-
-```
-cd experiment1/demo
-python demo.py
-```
-
-Finally, you can run the demo script on Jupyter Notebook:
-
-```
-experiment1/demo/Demo.ipyenb
-```
-
-### Experiment2
-
-#### Requirements
-
-```
-python 3.7
-torchtext
-tensorboardX
-utils. 
-```
-
-#### Training the Model
-
-To execute the code, run the following:
-
-```
-cd experiment2
-pip install --user -r requirements.txt
-mkdir results
-mkdir preprocessed
-mkdir preprocessed/img_vgg16feature_train
-mkdir preprocessed/img_vgg16feature_val
-python main.py -c config.yml
-```
-
-To skip preprocessing after the first execution, disable 'preprocess' in the config file.
-
-The experiment2 does not include demo scripts or trained model parameters.
-
-## Code organization 
-
-### experiment1
-
 Please refer to the experiment1 folder.
 
-### experiment2
+### Experiment2
 
 Please refer to the experiment2 folder.
 

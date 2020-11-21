@@ -1,28 +1,31 @@
-# Experiment1
+### Experiment1
 
-## Description 
-
-The experiment1 is an implementation for Bottom-Up and Top-Down Attention for Vision Question Answering. 
-This implementation is based on https://arxiv.org/abs/1707.07998 and is a modified version of https://github.com/hengyuan-hu/bottom-up-attention-vqa. 
-While the validation accuracy in the original repository is 63.58%, our results achieved 63.61%.
-You can see the detailed results in our final report and the sample results in experiment1/demo/Demo.ipynb.
-
-
-## Requirements and Usage
-
-The experiment1 requires 64G memory. To get sufficient resource on ing6 server, create a pod as follows:
+The experiment1 requires 64G memory. To get sufficient resource on UCSD's ing6 server, create a pod as follows:
 ```
 launch-pytorch-gpu.sh -m 64
 ```
 
-Use python 2.7 and install packages pillow and h5py. Since CUDA (Version 8) and pytorch (0.3.1) of DSMLP Python 2.7 pod is imcompatible, you need to downgrade pytorch to 0.3.0. 
+#### Requirements:
+
+```
+python 2.7 
+pillow
+cuda 8.0
+pytorch 0.3.0
+```
+
+#### Environment creation:
+
 ```
 conda create -n envname python=2.7 mkl=2018 pytorch=0.3.0 -c pytorch -c intel
 source activate envname
 pip install --user pillow h5py
 ```
 
-To train the model, run the followings:
+#### Usage
+
+To train the model, run the following commands:
+
 ```
 cd experiment1
 sh tools/download.sh
@@ -30,16 +33,20 @@ sh tools/process.sh
 python main.py
 ```
 
-For demonstration, you need the experiment results, our_answers.dms. This file is uploaded in experiment1/demo, but you can also generate it as follows:
+#### Demonstration
+
+For the demonstration, you can the experiment results stored in our_answers.dms. This file is uploaded in experiment1/demo, but you can also generate it as follows:
+
 ```
 cd experiment1/demo
 python demo.py
 ```
 
-Then run the demo script on jupyter notebook:
+Finally, you can run the demo script on Jupyter Notebook:
 
-- experiment1/demo/Demo.ipyenb
-
+```
+experiment1/demo/Demo.ipyenb
+```
 
 ## Code organization 
 

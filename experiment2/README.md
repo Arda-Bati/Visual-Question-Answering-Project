@@ -6,7 +6,18 @@ The experiment2 is a vanilla VQA implementation. These scripts are originally fr
 
 ## Requirements and Usage
 
-Use python 3.7 and install packages torchtext, tensorboardX, and utils. To execute the code, run the followings:
+#### Requirements
+
+```
+python 3.7
+torchtext
+tensorboardX
+utils. 
+```
+
+#### Usage
+
+To execute the code, run the following:
 
 ```
 cd experiment2
@@ -20,7 +31,7 @@ python main.py -c config.yml
 
 To skip preprocessing after the first execution, disable 'preprocess' in the config file.
 
-The experiment2 does not include demo scripts.
+The experiment2 does not include demo scripts or trained model parameters.
 
 
 ## Code organization 
