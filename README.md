@@ -27,7 +27,7 @@ cuda 8.0
 pytorch 0.3.0
 ```
 
-#### Envrionment creation:
+#### Environment creation:
 
 ```
 conda create -n envname python=2.7 mkl=2018 pytorch=0.3.0 -c pytorch -c intel
@@ -46,6 +46,8 @@ sh tools/process.sh
 python main.py
 ```
 
+#### Demonstration
+
 For the demonstration, you can the experiment results stored in our_answers.dms. This file is uploaded in experiment1/demo, but you can also generate it as follows:
 
 ```
@@ -53,7 +55,7 @@ cd experiment1/demo
 python demo.py
 ```
 
-Finally, you can run the demo script on jupyter notebook:
+Finally, you can run the demo script on Jupyter Notebook:
 
 ```
 experiment1/demo/Demo.ipyenb
@@ -62,7 +64,17 @@ experiment1/demo/Demo.ipyenb
 ### Experiment2
 
 #### Requirements
-For experiment2, use python 3.7 and install packages torchtext, tensorboardX, and utils. To execute the code, run the followings:
+
+```
+python 3.7
+torchtext
+tensorboardX
+utils. 
+```
+
+#### Training the Model
+
+To execute the code, run the following:
 
 ```
 cd experiment2
@@ -77,7 +89,6 @@ python main.py -c config.yml
 To skip preprocessing after the first execution, disable 'preprocess' in the config file.
 
 The experiment2 does not include demo scripts or trained model parameters.
-
 
 ## Code organization 
 
